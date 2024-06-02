@@ -1,0 +1,11 @@
+body{
+    background: #000000;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.e-gallery-grid:not(.e-gallery--animated) {
+    display: grid;
+    grid-gap: var(--vgap) var(--hgap);
+    grid-template-columns: repeat(var(--columns),1fr)
+}
