@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className="py-14 px-5">
       <div>
-        <h4 className="text-4xl font-normal font-sans text-center text-[#ffffff]">OUR PORTFOLIO</h4>
+        <h4 className="pb-7 text-2xl sm:text-4xl font-normal font-sans text-center text-[#ffffff] ">OUR PORTFOLIO</h4>
         <div>
         <img className="w-full" src="https://theakkaas.com/wp-content/uploads/2023/02/astromust-banner.jpg" />
         <div className="flex flex-col md:flex-row">

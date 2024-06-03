@@ -1,31 +1,40 @@
-"use client";
-import React from "react";
-import { Avatar, Dropdown, Navbar } from "flowbite-react";
+import React, { useState } from "react";
 
-const Header=()=> {
+const Header = () => {
+  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownVisible(!isDropdownVisible);
+  };
+
   return (
-    <Navbar fluid rounded className="bg-inherit pt-10 pb-20 px-0">
-      <Navbar.Brand href="#">
-        <img className="w-24 md:w-auto" src="/Logo.png" alt="Akkaas Logo" />
-      </Navbar.Brand>
-      <div className="flex md:order-2">
-        <Dropdown
-          arrowIcon={false}
-          inline
-          label={
-            <Avatar alt="User settings" img="/Dropdown.png" />
-          }
-        >
-          <Dropdown.Header>
-            <span className="block text-sm">Akkaas</span>
-          </Dropdown.Header>
-          <Dropdown.Item>Dashboard</Dropdown.Item>
-          <Dropdown.Item>Settings</Dropdown.Item>
-          <Dropdown.Item>Sign out</Dropdown.Item>
-        </Dropdown>
-        <Navbar.Toggle />
+    <div className="flex px-2 items-center h-24 justify-between">
+      <div>
+        <img className="w-40 md:w-auto" src="/Logo.png" alt="Akkaas Logo" />
       </div>
-    </Navbar>
+      <div className="relative">
+        <img
+          className="w-6 sm:w-8 cursor-pointer"
+          src="/Dropdown.png"
+          alt="Dropdown"
+          onClick={toggleDropdown}
+        />
+        {isDropdownVisible && (
+          <div className="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg">
+            <a href="#profile" className="block px-4 py-2 text-black hover:bg-gray-200">
+              Profile
+            </a>
+            <a href="#settings" className="block px-4 py-2 text-black hover:bg-gray-200">
+              Settings
+            </a>
+            <a href="#logout" className="block px-4 py-2 text-black hover:bg-gray-200">
+              Logout
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
   );
-}
+};
+
 export default Header;
