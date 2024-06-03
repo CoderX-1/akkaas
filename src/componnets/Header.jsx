@@ -6,7 +6,7 @@ const Header=()=> {
   return (
     <Navbar fluid rounded className="bg-inherit pt-10 pb-20 px-0">
       <Navbar.Brand href="#">
-        <img src="/Logo.png" alt="Akkaas Logo" />
+        <img className="w-24 md:w-auto" src="/Logo.png" alt="Akkaas Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Dropdown

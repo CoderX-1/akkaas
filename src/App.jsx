@@ -2,6 +2,7 @@ import Header  from './componnets/Header'
 import Footer  from './componnets/Footer'
 import React from 'react'
 import Companies from './componnets/Companies'
+import Portfolio from './componnets/Portfolio'
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
     <main>
       <section>
         <Companies/>
+      </section>
+      <section>
+        <Portfolio/>
       </section>
     </main>
     <footer>

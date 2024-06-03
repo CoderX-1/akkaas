@@ -74,8 +74,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="mt-10 flex justify-between">
-        <div class="flex gap-3 items-center">
+      <div class="mt-10 flex justify-between flex-col md:flex-row">
+        <div class="flex md:flex-row flex-col gap-3 items-center">
           <div>
             <a href="#" class="text-blue-600">
               <img
@@ -85,7 +85,7 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div>
+          <div className="flex space-x-2">
             <a href="#" class="text-blue-600">
               WHO WE ARE
             </a>
@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="flex justify-center space-x-6">
+        <div class="flex justify-center space-x-2">
           <a href="#" class="text-blue-600">
             Twitter
           </a>
