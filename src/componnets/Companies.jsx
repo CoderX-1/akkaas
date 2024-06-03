@@ -2,8 +2,10 @@ import React from "react";
 
 const Companies = () => {
   return (
-    <div className="bg-[#EFEEEB] py-14">
-      <div>
+    <section>
+<div className="bg-[#EFEEEB] py-14">
+      <div className="container mx-auto">
+        <div>
         <h4 className="text-4xl font-normal font-sans text-center">
           Companies that <br />
           trusted us
@@ -36,7 +38,11 @@ const Companies = () => {
         <img className="p-7 block" src="/Trandefy.png" alt="" />
         <img className="p-7 block" src="/uaca.png" alt="" />
       </div>
+      </div>
+      
     </div>
+    </section>
+    
   );
 };
 export default Companies;

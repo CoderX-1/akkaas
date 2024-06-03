@@ -8,7 +8,8 @@ const Header = () => {
   };
 
   return (
-    <div className="flex px-2 items-center h-24 justify-between">
+    <header>
+<div className="flex px-2 items-center h-24 justify-between container mx-auto">
       <div>
         <img className="w-40 md:w-auto" src="/Logo.png" alt="Akkaas Logo" />
       </div>
@@ -34,6 +35,8 @@ const Header = () => {
         )}
       </div>
     </div>
+    </header>
+    
   );
 };
 

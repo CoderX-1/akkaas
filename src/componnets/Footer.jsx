@@ -2,7 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div class="bg-white py-10 px-6">
+    <footer>
+<div class="bg-white py-10 px-6">
+    <div class="container mx-auto">
       <div class="mb-10">
         <h2 class="text-3xl font-bold text-blue-600">
           DON'T BE SHY <br /> TO SAY HI
@@ -111,6 +113,9 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </div>
+    </footer>
+    
   );
 };
 export default Footer;

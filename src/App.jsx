@@ -1,29 +1,22 @@
-import Header  from './componnets/Header'
-import Footer  from './componnets/Footer'
-import React from 'react'
-import Companies from './componnets/Companies'
-import Portfolio from './componnets/Portfolio'
+import Header from "./componnets/Header";
+import Footer from "./componnets/Footer";
+import React from "react";
+import Companies from "./componnets/Companies";
+import Portfolio from "./componnets/Portfolio";
+import Services from "./componnets/Services";
 
 function App() {
-
   return (
     <>
-    <header>
-    <Header/>
-    </header>
-    <main>
-      <section>
-        <Companies/>
-      </section>
-      <section>
-        <Portfolio/>
-      </section>
-    </main>
-    <footer>
-    <Footer/>
-    </footer>
+      <Header />
+      <main>
+        <Companies />
+        <Services />
+        <Portfolio />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
