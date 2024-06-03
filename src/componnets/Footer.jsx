@@ -5,11 +5,9 @@ const Footer = () => {
     <footer>
 <div class="bg-white py-10 px-6">
     <div class="container mx-auto">
-      <div class="mb-10">
-        <h2 class="text-3xl font-bold text-blue-600">
+        <h2 class="mb-10 text-3xl font-bold text-blue-600">
           DON'T BE SHY <br /> TO SAY HI
         </h2>
-      </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <h3 class="font-semibold uppercase">Offices</h3>
