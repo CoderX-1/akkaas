@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className="container mx-auto">
  <div className="py-14 px-5">
       <div>
         <h4 className="pb-7 text-2xl sm:text-4xl font-normal font-sans text-center text-[#ffffff] ">OUR PORTFOLIO</h4>

@@ -10,32 +10,82 @@ const Companies = () => {
             trusted us
           </h4>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 place-items-center">
-            <img className="p-7 block" src="/Cochlear.png" alt="" />
-            <img className="p-7 block" src="/Address.png" alt="" />
-            <img className="p-7 block" src="/Agb.png" alt="" />
-            <img className="p-7 block" src="/alphabet.png" alt="" />
-            <img className="p-7 block" src="/amrita.png" alt="" />
-            <img className="p-7 block" src="/astromust.png" alt="" />
-            <img className="p-7 block" src="/beyond.png" alt="" />
-            <img className="p-7 block" src="/blue.png" alt="" />
-            <img className="p-7 block" src="/clubpadel.png" alt="" />
-            <img className="p-7 block" src="/Coredirection.png" alt="" />
-            <img className="p-7 block" src="/Dubaiautodrome.png" alt="" />
-            <img className="p-7 block" src="/Emiratesnature.png" alt="" />
-            <img className="p-7 block" src="/Fluid.png" alt="" />
-            <img className="p-7 block" src="/Hanah.png" alt="" />
-            <img className="p-7 block" src="/huawei.png" alt="" />
-            <img className="p-7 block" src="/kocrossbay.png" alt="" />
-            <img className="p-7 block" src="/melanie.png" alt="" />
-            <img className="p-7 block" src="/Nimbus.png" alt="" />
-            <img className="p-7 block" src="/parent.png" alt="" />
-            <img className="p-7 block" src="/pxpulse.png" alt="" />
-            <img className="p-7 block" src="/Roche.png" alt="" />
-            <img className="p-7 block" src="/sevenly.png" alt="" />
-            <img className="p-7 block" src="/Thepath.png" alt="" />
-            <img className="p-7 block" src="/Trandefy.png" alt="" />
-            <img className="p-7 block" src="/uaca.png" alt="" />
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 place-items-center gap-14 pt-7">
+            <figure>
+              <img className=" block" src="/Cochlear.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Address.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Agb.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/alphabet.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/amrita.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/astromust.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/beyond.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/blue.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/clubpadel.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Coredirection.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Dubaiautodrome.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Emiratesnature.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Fluid.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Hanah.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/huawei.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/kocrossbay.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/melanie.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Nimbus.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/parent.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/pxpulse.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Roche.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/sevenly.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Thepath.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/Trandefy.png" alt="" />
+            </figure>
+            <figure>
+              <img className=" block" src="/uaca.png" alt="" />
+            </figure>
           </div>
         </div>
       </div>
