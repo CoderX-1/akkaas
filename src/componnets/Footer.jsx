@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from 'react-dom'
 
 const Footer = () => {
   return (
     <footer>
-<div class="bg-white py-10 px-6">
-    <div class="container mx-auto">
-        <h2 class="mb-10 text-3xl font-bold text-blue-600">
+<div className="bg-white py-10 px-6">
+    <div className="container mx-auto">
+        <h2 className="mb-10 text-3xl font-bold text-blue-600">
           DON'T BE SHY <br /> TO SAY HI
         </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <h3 class="font-semibold uppercase">Offices</h3>
-          <div class="mt-4">
-            <h4 class="font-medium">Dubai</h4>
+          <h3 className="font-semibold uppercase">Offices</h3>
+          <div className="mt-4">
+            <h4 className="font-medium">Dubai</h4>
             <p>
               Second Floor, Building 04
               <br />
@@ -21,8 +22,8 @@ const Footer = () => {
               +971 55 169 3129
             </p>
           </div>
-          <div class="mt-4">
-            <h4 class="font-medium">Canada</h4>
+          <div className="mt-4">
+            <h4 className="font-medium">Canada</h4>
             <p>
               Suit # 2505, 50 Ordnance Street,
               <br />
@@ -33,81 +34,81 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h3 class="font-semibold uppercase">Business</h3>
-          <div class="mt-4">
-            <h4 class="font-medium">Dubai</h4>
-            <a href="mailto:mohammad.zia@theakkaas.com" class="text-blue-600">
+          <h3 className="font-semibold uppercase">Business</h3>
+          <div className="mt-4">
+            <h4 className="font-medium">Dubai</h4>
+            <Link to="mailto:mohammad.zia@theakkaas.com" class="text-blue-600">
               mohammad.zia@theakkaas.com
-            </a>
+            </Link>
           </div>
-          <div class="mt-4">
-            <h4 class="font-medium">Canada</h4>
-            <a href="mailto:ali.zaidi@theakkaas.com" class="text-blue-600">
+          <div className="mt-4">
+            <h4 className="font-medium">Canada</h4>
+            <Link to="mailto:ali.zaidi@theakkaas.com" class="text-blue-600">
               ali.zaidi@theakkaas.com
-            </a>
+            </Link>
           </div>
         </div>
         <div>
-          <h3 class="font-semibold uppercase">Say Hi</h3>
-          <div class="mt-4">
-            <h4 class="font-medium">Contact</h4>
-            <a href="mailto:info@theakkaas.com" class="text-blue-600">
+          <h3 className="font-semibold uppercase">Say Hi</h3>
+          <div className="mt-4">
+            <h4 className="font-medium">Contact</h4>
+            <Link to="mailto:info@theakkaas.com" className="text-blue-600">
               info@theakkaas.com
-            </a>
+            </Link>
           </div>
-          <div class="mt-4">
-            <h4 class="font-medium">Jobs</h4>
-            <a href="mailto:jobs@theakkaas.com" class="text-blue-600">
+          <div className="mt-4">
+            <h4 className="font-medium">Jobs</h4>
+            <Link to="mailto:jobs@theakkaas.com" className="text-blue-600">
               jobs@theakkaas.com
-            </a>
+            </Link>
           </div>
         </div>
         <div>
-          <h3 class="font-semibold uppercase">Contact</h3>
-          <div class="mt-4">
+          <h3 className="font-semibold uppercase">Contact</h3>
+          <div className="mt-4">
             <p>
               Reach out using our cool{" "}
-              <a href="#" class="text-blue-600 font-bold">
+              <Link to="#" className="text-blue-600 font-bold">
                 contact form
-              </a>
+              </Link>
             </p>
           </div>
         </div>
       </div>
-      <div class="mt-10 flex justify-between flex-col md:flex-row">
-        <div class="flex md:flex-row flex-col gap-3 items-center">
+      <div className="mt-10 flex justify-between flex-col md:flex-row">
+        <div className="flex md:flex-row flex-col gap-3 items-center">
           <div>
-            <a href="#" class="text-blue-600">
+            <Link to="#" className="text-blue-600">
               <img
                 className="w-full max-w-[180px]"
                 src="https://theakkaas.com/wp-content/uploads/2023/01/theakkaas-logo-black.svg"
                 alt="Akkaas Logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex space-x-2">
-            <a href="#" class="text-blue-600">
+            <Link to="#" class="text-blue-600">
               WHO WE ARE
-            </a>
-            <a href="#" class="text-blue-600">
+            </Link>
+            <Link to="#" class="text-blue-600">
               SERVICES
-            </a>
-            <a href="#" class="text-blue-600">
+            </Link>
+            <Link to="#" class="text-blue-600">
               PORTFOLIO
-            </a>
+            </Link>
           </div>
         </div>
 
-        <div class="flex justify-center space-x-2">
-          <a href="#" class="text-blue-600">
+        <div className="flex justify-center space-x-2">
+          <Link to="#" className="text-blue-600">
             Twitter
-          </a>
-          <a href="#" class="text-blue-600">
+          </Link>
+          <Link to="#" className="text-blue-600">
             Instagram
-          </a>
-          <a href="#" class="text-blue-600">
+          </Link>
+          <Link to="#" className="text-blue-600">
             LinkedIn
-          </a>
+          </Link>
         </div>
       </div>
     </div>
