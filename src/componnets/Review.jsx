@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Idk from "./Idk";
 const Review = () => {
   var settings = {
     dots: true,
@@ -143,16 +144,7 @@ const Review = () => {
         </div>
       </Slider>
     </section>
-    <section>
-        <div>
-        <figure>
-        <img className="w-full" src="https://theakkaas.com/wp-content/uploads/2024/05/our-approach-bg.webp" alt="" />
-        <div className="absolute top-3/4 left-2/4 bg-white">
-        <h4>Play Reel</h4>
-        </div>
-      </figure>
-        </div>
-    </section>
+    <Idk/>
     </div>
   );
 };

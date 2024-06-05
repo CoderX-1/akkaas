@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-dom'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -37,30 +37,30 @@ const Footer = () => {
           <h3 className="font-semibold uppercase">Business</h3>
           <div className="mt-4">
             <h4 className="font-medium">Dubai</h4>
-            <Link to="mailto:mohammad.zia@theakkaas.com" class="text-blue-600">
+            <a href="mailto:mohammad.zia@theakkaas.com" class="text-blue-600">
               mohammad.zia@theakkaas.com
-            </Link>
+            </a>
           </div>
           <div className="mt-4">
             <h4 className="font-medium">Canada</h4>
-            <Link to="mailto:ali.zaidi@theakkaas.com" class="text-blue-600">
+            <a href="mailto:ali.zaidi@theakkaas.com" class="text-blue-600">
               ali.zaidi@theakkaas.com
-            </Link>
+            </a>
           </div>
         </div>
         <div>
           <h3 className="font-semibold uppercase">Say Hi</h3>
           <div className="mt-4">
             <h4 className="font-medium">Contact</h4>
-            <Link to="mailto:info@theakkaas.com" className="text-blue-600">
+            <a href="mailto:info@theakkaas.com" className="text-blue-600">
               info@theakkaas.com
-            </Link>
+            </a>
           </div>
           <div className="mt-4">
             <h4 className="font-medium">Jobs</h4>
-            <Link to="mailto:jobs@theakkaas.com" className="text-blue-600">
+            <a href="mailto:jobs@theakkaas.com" className="text-blue-600">
               jobs@theakkaas.com
-            </Link>
+            </a>
           </div>
         </div>
         <div>
@@ -68,9 +68,9 @@ const Footer = () => {
           <div className="mt-4">
             <p>
               Reach out using our cool{" "}
-              <Link to="#" className="text-blue-600 font-bold">
+              <a href="#" className="text-blue-600 font-bold">
                 contact form
-              </Link>
+              </a>
             </p>
           </div>
         </div>
@@ -78,37 +78,37 @@ const Footer = () => {
       <div className="mt-10 flex justify-between flex-col md:flex-row">
         <div className="flex md:flex-row flex-col gap-3 items-center">
           <div>
-            <Link to="#" className="text-blue-600">
+            <a href="#" className="text-blue-600">
               <img
                 className="w-full max-w-[180px]"
                 src="https://theakkaas.com/wp-content/uploads/2023/01/theakkaas-logo-black.svg"
                 alt="Akkaas Logo"
               />
-            </Link>
+            </a>
           </div>
           <div className="flex space-x-2">
-            <Link to="#" class="text-blue-600">
+            <a href="#" class="text-blue-600">
               WHO WE ARE
-            </Link>
-            <Link to="#" class="text-blue-600">
+            </a>
+            <a href="#" class="text-blue-600">
               SERVICES
-            </Link>
-            <Link to="#" class="text-blue-600">
+            </a>
+            <a href="#" class="text-blue-600">
               PORTFOLIO
-            </Link>
+            </a>
           </div>
         </div>
 
         <div className="flex justify-center space-x-2">
-          <Link to="#" className="text-blue-600">
+          <a href="#" className="text-blue-600">
             Twitter
-          </Link>
-          <Link to="#" className="text-blue-600">
+          </a>
+          <a href="#" className="text-blue-600">
             Instagram
-          </Link>
-          <Link to="#" className="text-blue-600">
+          </a>
+          <a href="#" className="text-blue-600">
             LinkedIn
-          </Link>
+          </a>
         </div>
       </div>
     </div>
